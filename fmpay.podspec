@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "fmpay"
-  spec.version      = "0.0.3"
+  spec.version      = "0.0.4"
   spec.summary      = "this is a fmpay."
 
   # This description is used to generate tags and improve search results.
@@ -91,8 +91,8 @@ spec.author             = { "lidazhi" => "lidazhi" }
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "feimaoSDKframework/FeimaoSDK.framework/Headers/*"
-  # spec.vendored_frameworks = 'FeimaoSDK.framework'
+  # spec.source_files  = "feimaoSDKframework/FeimaoSDK.framework/Headers/"
+    spec.vendored_frameworks = 'FeimaoSDK.framework'
   # spec.exclude_files = "Classes/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"
