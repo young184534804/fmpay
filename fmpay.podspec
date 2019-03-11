@@ -53,7 +53,7 @@ Pod::Spec.new do |spec|
   #  profile URL.
   #
 
-spec.author             = { "lidazhi" => "lidazhi" }
+    spec.author             = { "lidazhi" => "lidazhi" }
   # Or just: spec.author    = "limohuyu01"
   # spec.authors            = { "limohuyu01" => "" }
   # spec.social_media_url   = "https://twitter.com/limohuyu01"
@@ -131,7 +131,7 @@ spec.author             = { "lidazhi" => "lidazhi" }
   #  where they will only apply to your library. If you depend on other Podspecs
   #  you can include multiple dependencies to ensure it works.
 
-    spec.requires_arc = true
+  #   spec.requires_arc = true
 
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # spec.dependency "JSONKit", "~> 1.4"
